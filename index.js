@@ -14,7 +14,7 @@ const start=async(req,res)=>{
 
     try {
           await connectDB(process.env.MONGO_CDN_URL)
-          app.listen(5000,(req,res)=>{
+          app.listen(3000,(req,res)=>{
  console.log('success')
           })
 
